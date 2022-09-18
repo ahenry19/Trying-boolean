@@ -1,0 +1,21 @@
+x = 'strong and mobile ankles'
+y = 'strong and mobile hips' 
+z = 'strong core'
+
+Squat Form = [x,y,z]
+
+Pronating Feet != x
+Caved Knees != y
+Extreme Hinge != z 
+
+If Squat form = [x,y,z]
+  Program = '3 week squat strength'
+Else: 
+  If Squat Form = [x,y]
+    Program = 'cores strength'
+  Elif Squat Form = [x,z]
+    Program = 'hip strength and mobility'
+  Elif Squat Form = [y,z]
+    Program = 'ankle strength and mobility
+ 
+ Print(Program)
